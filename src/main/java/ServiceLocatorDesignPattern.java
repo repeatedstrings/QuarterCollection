@@ -15,10 +15,10 @@ public class ServiceLocatorDesignPattern {
         // now this should be added to the collection
         System.out.println("\n");
         System.out.println("\tSomeone gave you a Maryland Quarter... Don't I have one?");
-        stateQuarter = StateQuarterLocator.getQuarter("Maryland");
+        StateQuarterLocator.getQuarter("Maryland");
         System.in.read();
 
         System.out.println("\tSomeone gave you a Texas Quarter... Don't I have one?");
-        stateQuarter = StateQuarterLocator.getQuarter("Texas");
+        StateQuarterLocator.getQuarter("Texas");
     }
 }
